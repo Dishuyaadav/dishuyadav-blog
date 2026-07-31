@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f3ec;
+  color: #111827;
+  font-family: Inter, sans-serif;
+}
+
+::selection {
+  background: #111827;
+  color: white;
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.9;
+}
